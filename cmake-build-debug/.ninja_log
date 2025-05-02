@@ -1,0 +1,25 @@
+# ninja log v6
+3	191	7675682215752238	build.ninja	83f60d95da7c7421
+28	82	7675682216247323	CMakeFiles/RPGReforged.dir/Core/Stats.cpp.obj	918f55e251b2c6b2
+32	87	7675682216277329	CMakeFiles/RPGReforged.dir/Enemies/Dragon.cpp.obj	1f09bb9ba3b39b10
+38	93	7675682216337322	CMakeFiles/RPGReforged.dir/Enemies/Orc.cpp.obj	797a4de15b5c95b2
+41	93	7675682216377326	CMakeFiles/RPGReforged.dir/Enemies/Skeleton.cpp.obj	6bbb9b8f6bb21e88
+2	373	7675682215977317	CMakeFiles/RPGReforged.dir/Abilities/Ability.cpp.obj	a7f1f3a16ad7f5a1
+5	390	7675682216007323	CMakeFiles/RPGReforged.dir/Abilities/Backstab.cpp.obj	b4cccd71d482a24b
+9	399	7675682216047316	CMakeFiles/RPGReforged.dir/Abilities/DivineHeal.cpp.obj	9efa86d06e577e8a
+11	400	7675682216077313	CMakeFiles/RPGReforged.dir/Abilities/Fireball.cpp.obj	ccf0b52e3b3fe336
+22	400	7675682216187316	CMakeFiles/RPGReforged.dir/Abilities/SummonMinion.cpp.obj	14c66613092c4681
+20	404	7675682216157313	CMakeFiles/RPGReforged.dir/Abilities/ShieldBash.cpp.obj	642e82271e124b57
+45	407	7675682216407326	CMakeFiles/RPGReforged.dir/Enemies/Slime.cpp.obj	68cd33724a7ec8f
+14	408	7675682216097315	CMakeFiles/RPGReforged.dir/Abilities/PowerShot.cpp.obj	d555a6e4a57d30d3
+35	415	7675682216307330	CMakeFiles/RPGReforged.dir/Enemies/Enemy.cpp.obj	6e5b11186cf78b0e
+16	421	7675682216127316	CMakeFiles/RPGReforged.dir/Abilities/Rage.cpp.obj	4d378c72e977ce1a
+66	473	7675682216617328	CMakeFiles/RPGReforged.dir/Players/Player.cpp.obj	5ce3d7cade59ce45
+48	475	7675682216437319	CMakeFiles/RPGReforged.dir/Players/Archer.cpp.obj	18e44f557737f487
+56	476	7675682216517325	CMakeFiles/RPGReforged.dir/Players/Mage.cpp.obj	3941749f755ca985
+52	477	7675682216477323	CMakeFiles/RPGReforged.dir/Players/Berserker.cpp.obj	2a092303189f33d7
+60	485	7675682216567320	CMakeFiles/RPGReforged.dir/Players/Paladin.cpp.obj	ea31577b07652fac
+73	492	7675682216687326	CMakeFiles/RPGReforged.dir/Players/Rogue.cpp.obj	64234b6e7671f667
+77	500	7675682216737377	CMakeFiles/RPGReforged.dir/Players/Summoner.cpp.obj	f06f1b66188087f9
+83	502	7675682216787377	CMakeFiles/RPGReforged.dir/Players/Warrior.cpp.obj	77ca5c8a0d2aefe9
+88	707	7675682216842423	CMakeFiles/RPGReforged.dir/RPGReforged.cpp.obj	6ab21df9df52cf02

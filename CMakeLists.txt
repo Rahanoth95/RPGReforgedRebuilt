@@ -1,0 +1,61 @@
+cmake_minimum_required(VERSION 3.29)
+project(RPGReforged)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(Abilities)
+include_directories(Core)
+include_directories(Enemies)
+include_directories(Players)
+
+add_executable(RPGReforged
+    Abilities/Ability.cpp
+    Abilities/Ability.h
+    Abilities/Backstab.cpp
+    Abilities/Backstab.h
+    Abilities/DivineHeal.cpp
+    Abilities/DivineHeal.h
+    Abilities/Fireball.cpp
+    Abilities/Fireball.h
+    Abilities/PowerShot.cpp
+    Abilities/PowerShot.h
+    Abilities/Rage.cpp
+    Abilities/Rage.h
+    Abilities/ShieldBash.cpp
+    Abilities/ShieldBash.h
+    Abilities/SummonMinion.cpp
+    Abilities/SummonMinion.h
+    Core/Character.cpp
+    Core/Character.h
+    Core/Stats.cpp
+    Core/Stats.h
+    Enemies/Dragon.cpp
+    Enemies/Dragon.h
+    Enemies/Enemy.cpp
+    Enemies/Enemy.h
+    Enemies/Orc.cpp
+    Enemies/Orc.h
+    Enemies/Skeleton.cpp
+    Enemies/Skeleton.h
+    Enemies/Slime.cpp
+    Enemies/Slime.h
+    Players/Archer.cpp
+    Players/Archer.h
+    Players/Berserker.cpp
+    Players/Berserker.h
+    Players/Mage.cpp
+    Players/Mage.h
+    Players/Paladin.cpp
+    Players/Paladin.h
+    Players/Player.cpp
+    Players/Player.h
+    Players/Rogue.cpp
+    Players/Rogue.h
+    Players/Summoner.cpp
+    Players/Summoner.h
+    Players/Warrior.cpp
+    Players/Warrior.h
+        resource.h
+    RPGReforged.cpp
+)

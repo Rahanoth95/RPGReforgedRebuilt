@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3c3b6f68-8886-4a10-bf10-9aa0051a0076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Players">
+      <UniqueIdentifier>{31242fd8-9647-4561-8ba2-803ecaecd10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{bdcbe01c-8075-44e5-abec-415479313b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities">
+      <UniqueIdentifier>{aeaff20c-20a2-4a1c-a566-5397714010ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RPGReforged.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Archer.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Berserker.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Mage.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Paladin.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Player.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Rogue.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Summoner.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\Warrior.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies\Dragon.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies\Enemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies\Orc.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies\Skeleton.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemies\Slime.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\Ability.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\Backstab.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\DivineHeal.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\Fireball.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\PowerShot.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\Rage.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\ShieldBash.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilities\SummonMinion.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stats.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Archer.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Berserker.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Mage.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Paladin.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Player.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Rogue.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Summoner.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Warrior.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies\Dragon.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies\Enemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies\Orc.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies\Skeleton.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies\Slime.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\Ability.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\Backstab.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\DivineHeal.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\Fireball.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\PowerShot.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\Rage.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\ShieldBash.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities\SummonMinion.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Character.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RPGReforged.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

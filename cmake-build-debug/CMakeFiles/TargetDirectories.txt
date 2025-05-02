@@ -1,0 +1,3 @@
+C:/Users/Johnathan B/source/repos/RPGReforged/cmake-build-debug/CMakeFiles/RPGReforged.dir
+C:/Users/Johnathan B/source/repos/RPGReforged/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Johnathan B/source/repos/RPGReforged/cmake-build-debug/CMakeFiles/rebuild_cache.dir
